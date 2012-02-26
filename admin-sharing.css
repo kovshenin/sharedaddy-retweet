@@ -1,0 +1,10 @@
+.services ul li#retweet, .preview-retweet div.option-smart-off{background: #FFF url(images/retweet.png) no-repeat 4px 5px; padding-right: 10px;}
+.preview-retweet .option-smart-on {
+	background: #FFF url(images/smart-retweet.png) no-repeat top left;
+	width:67px;
+	height:20px;
+	margin-top: 3px;
+}
+.preview li.preview-retweet	 {
+	padding: 0;
+}

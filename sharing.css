@@ -1,0 +1,61 @@
+.sharedaddy-retweet-container {
+	padding-top: 2px;
+}
+.sharedaddy-retweet-button {
+	padding: 0 !important;
+	line-height: 18px !important;
+}
+.sharedaddy-retweet {
+	padding: 0 !important;
+	position: relative;
+	background-color: #F8F8F8;
+	background-image: -webkit-gradient(linear,left top,left bottom,from(white),to(#DEDEDE));
+	background-image: -moz-linear-gradient(top,white,#DEDEDE);
+	background-image: -o-linear-gradient(top,white,#DEDEDE);
+	background-image: -ms-linear-gradient(top,white,#DEDEDE);
+	background-image: linear-gradient(top,white,#DEDEDE);
+	border: #CCC solid 1px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	color: #333;
+	font-weight: bold;
+	text-shadow: 0 1px 0 rgba(255, 255, 255, .5);
+	white-space: normal;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-o-user-select: none;
+	user-select: none;
+	cursor: pointer;
+	height: 18px;
+	max-width: 98%;
+	overflow: hidden;
+	display: block;
+	font: 11px/18px 'Helvetica Neue',Arial,sans-serif;
+}
+.sharedaddy-retweet:hover {
+	border-color:#bbb;background-color:#f8f8f8;background-image:-webkit-gradient(linear,left top,left bottom,from(#f8f8f8),to(#d9d9d9));background-image:-moz-linear-gradient(top,#f8f8f8,#d9d9d9);background-image:-o-linear-gradient(top,#f8f8f8,#d9d9d9);background-image:-ms-linear-gradient(top,#f8f8f8,#d9d9d9);background-image:linear-gradient(top,#f8f8f8,#d9d9d9);-webkit-box-shadow:none;-moz-box-shadow:none;box-shadow:none;}.btn:active{background-color:#efefef;-webkit-box-shadow:inset 0 3px 5px rgba(0,0,0,0.1);-moz-box-shadow:inset 0 3px 5px rgba(0,0,0,0.1);box-shadow:inset 0 3px 5px rgba(0,0,0,0.1);
+}
+.sharedaddy-retweet-label {
+	line-height: 18px;
+	display: inline-block;
+	height: 18px;
+	padding: 0 3px 0 19px;
+	zoom: 1;
+	color: #333;
+	font-weight: bold;
+	text-shadow: 0 1px 0 rgba(255, 255, 255, .5);
+	white-space: normal;
+	cursor: pointer;
+}
+.sharedaddy-retweet-icon {
+	position: absolute;
+	left: 2px;
+	top: 1px;
+	width: 16px;
+	height: 16px;
+	background: url( 'https://si0.twimg.com/images/dev/cms/intents/icons/sprites/retweet-sprite.png' ) 0 0 no-repeat;
+}
+.sharedaddy-retweet:hover .sharedaddy-retweet-icon {
+	background-position: -16px 0;
+}
